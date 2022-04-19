@@ -1,4 +1,5 @@
 
+import Routes from './router';
 import './App.css';
 
 
@@ -6,9 +7,8 @@ import './App.css';
 function App() {
   return (
     <div>
-     <h1>Projeto</h1>
-  
-       
+     <Routes/>
+
     </div>
   );
 }
