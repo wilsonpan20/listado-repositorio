@@ -7,10 +7,7 @@ justify-content: center;
 align-items: center;
 height: 100vh;
 
-`
-
-
-
+`;
 
 export const Container = styled.div`
 max-width: 700px;
@@ -21,6 +18,8 @@ margin:  80px auto;
 border-radius: 10px;
 
 `;
+
+
 
 export const Owner = styled.header`
 display: flex;
@@ -116,7 +115,7 @@ strong{
         }
 }
 
-`
+`;
 export const PageAction = styled.div`
 display: flex;
 align-items: center;
@@ -137,4 +136,22 @@ button{
 }
 
 `;
+
+export const FilterList = styled.div`
+margin: 15px 0;
+
+button{
+    outline: 0;
+    border: 0;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 0 3px;
+    &:nth-child(${props => props.active + 1}){
+        background: #0071db;
+        color:#fff;
+    }
+}
+
+
+`
 
