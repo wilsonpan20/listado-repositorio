@@ -98,8 +98,6 @@ li{
 
 }
 
-
-
 `;
 
 export const DeleteButton = styled.button.attrs({
