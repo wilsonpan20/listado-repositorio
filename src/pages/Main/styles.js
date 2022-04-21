@@ -43,7 +43,9 @@ input{
 
 `;
 
-export const SubmitButton = styled.button`
+export const SubmitButton = styled.button.attrs({
+    type:'submit'
+})`
 background: #0D2636;
 border: 0;
 border-radius: 4px;
@@ -51,7 +53,7 @@ margin-left: 10px;
 padding: 0 15px;
 display: flex;
 justify-content: center;
-align-items:center ;
+align-items:center;
 
 
 
